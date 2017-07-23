@@ -16,5 +16,6 @@ Unfortunately due to time constraints in preparing this test, and other commitme
 3) Currently there are a couple of timing issues regarding the navigation button being active. I have added sleeps here, but should look more into a safer option.
 4) Given more time would think that Protractor may be a better solution, but I am just starting to look around this interesting technology.
 5) Code is structured so there is a class for each page (Page object) to minimise maintenance. The main step definition groups aspects from each page to avoid too much detail at the test definition stage (cucumber). Asserts happen at the step definition level.
+6) Currently for ease and speed to create it is all using static. Probably would need to instantiate classes in a fuller solution.
 
 Please contact me should you require any further information. Should there be problems running, but you can review the tests and are happy, I am happy to bring my laptop to an interview if required to ensure smooth running.
